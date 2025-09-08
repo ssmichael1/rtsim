@@ -1,0 +1,22 @@
+[package]
+name = "rtsim"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A real-time simulation framework."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourusername/rtsim"
+
+[dependencies]
+
+# Time and scheduling utilities
+chrono = "0.4"
+
+thiserror = "2.0.16"
+
+# Optionally, for event-driven simulation
+crossbeam = "0.8"
+
+[dev-dependencies]
+# Testing framework
+criterion = "0.5"
